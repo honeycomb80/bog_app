@@ -1,0 +1,9 @@
+<h1> They're nice, although they can be a bit bitey... </h1>
+<% @creatures.each do |creature| %>
+
+    <div>
+        Name: <%= creature[:name] %> <br>
+        Description: <%= creature[:description] %>
+    </div>
+
+<% end %>
